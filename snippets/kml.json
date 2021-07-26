@@ -1,0 +1,1063 @@
+{
+
+  // COMPLETIONS
+
+  "version": { "prefix": "version", "body": "version" },
+  "xmlversion": { "prefix": "xmlversion", "body": "xmlversion" },
+  "build": { "prefix": "build", "body": "build" },
+
+  "fs": { "prefix": "fs", "body": "fullscreen" },
+  "fullscreen": { "prefix": "fullscreen", "body": "fullscreen" },
+
+  "stw": { "prefix": "stw", "body": "stagewidth " },
+  "stagewidth": { "prefix": "stagewidth", "body": "stagewidth" },
+
+  "sth": { "prefix": "sth", "body": "stageheight " },
+  "stageheight": { "prefix": "stageheight", "body": "stageheight" },
+
+  "sts": { "prefix": "sts", "body": "stagescale" },
+  "stagescale": { "prefix": "stagescale", "body": "stagescale" },
+
+  "browser.useragent": { "prefix": "browser.useragent", "body": "browser.useragent" },
+  "browser.platform": { "prefix": "browser.platform", "body": "browser.platform" },
+  "browser.location": { "prefix": "browser.location", "body": "browser.location" },
+  "browser.domain": { "prefix": "browser.domain", "body": "browser.domain" },
+  "browser.protocol": { "prefix": "browser.protocol", "body": "browser.protocol" },
+  "device.flash": { "prefix": "device.flash", "body": "device.flash" },
+  "device.flashversion": { "prefix": "device.flashversion", "body": "device.flashversion" },
+  "device.html5": { "prefix": "device.html5", "body": "device.html5" },
+  
+  "devd": { "prefix": "devd", "body": "device.desktop" },
+  "device.desktop": { "prefix": "device.desktop", "body": "device.desktop" },
+
+  "device.normal": { "prefix": "device.normal", "body": "device.normal" },
+  
+  "dtab": { "prefix": "dtab", "body": "device.tablet" },
+  "device.tablet": { "prefix": "device.tablet", "body": "device.tablet" },
+
+  
+  "dmob": { "prefix": "dmob", "body": "device.mobile" },
+  "device.mobile": { "prefix": "device.mobile", "body": "device.mobile" },
+
+  
+  "dhand": { "prefix": "dhand", "body": "device.handheld" },
+  "device.handheld": { "prefix": "device.handheld", "body": "device.handheld" },
+
+  
+  "dcss": { "prefix": "dcss", "body": "device.css3d" },
+  "device.css3d": { "prefix": "device.css3d", "body": "device.css3d" },
+  "rcss3d": { "prefix": "rcss3d", "body": "renderer=\"css3d\"" },
+
+  
+  "dwebgl": { "prefix": "dwebgl", "body": "device.webgl" },
+  "device.webgl": { "prefix": "device.webgl", "body": "device.webgl" },
+
+  "device.multiressupport": { "prefix": "device.multiressupport", "body": "device.multiressupport" },
+  "device.panovideosupport": { "prefix": "device.panovideosupport", "body": "device.panovideosupport" },
+  "device.fullscreensupport": { "prefix": "device.fullscreensupport", "body": "device.fullscreensupport" },
+  "device.pixelratio": { "prefix": "device.pixelratio", "body": "device.pixelratio" },
+  "device.fractionalscaling": { "prefix": "device.fractionalscaling", "body": "device.fractionalscaling" },
+  "device.mouse": { "prefix": "device.mouse", "body": "device.mouse" },
+  
+  "dtouch": { "prefix": "dtouch", "body": "device.touch" },
+  "device.touch": { "prefix": "device.touch", "body": "device.touch" },
+
+  
+  "dios": { "prefix": "dios", "body": "device.ios" },
+  "device.ios": { "prefix": "device.ios", "body": "device.ios" },
+
+  "device.iosversion": { "prefix": "device.iosversion", "body": "device.iosversion" },
+  
+  "diphone": { "prefix": "diphone", "body": "device.iphone" },
+  "device.iphone": { "prefix": "device.iphone", "body": "device.iphone" },
+
+  
+  "dipod": { "prefix": "dipod", "body": "device.ipod" },
+  "device.ipod": { "prefix": "device.ipod", "body": "device.ipod" },
+
+  
+  "dipad": { "prefix": "dipad", "body": "device.ipad" },
+  "device.ipad": { "prefix": "device.ipad", "body": "device.ipad" },
+
+  
+  "dandroid": { "prefix": "dandroid", "body": "device.android" },
+  "device.android": { "prefix": "device.android", "body": "device.android" },
+
+  "device.androidversion": { "prefix": "device.androidversion", "body": "device.androidversion" },
+  "device.androidstock": { "prefix": "device.androidstock", "body": "device.androidstock" },
+  
+  "dchrome": { "prefix": "dchrome", "body": "device.chrome" },
+  "device.chrome": { "prefix": "device.chrome", "body": "device.chrome" },
+
+  
+  "dchromob": { "prefix": "dchromob", "body": "device.chromemobile" },
+  "device.chromemobile": { "prefix": "device.chromemobile", "body": "device.chromemobile" },
+
+  "device.chromeversion": { "prefix": "device.chromeversion", "body": "device.chromeversion" },
+  
+  "dfirefox": { "prefix": "dfirefox", "body": "device.firefox" },
+  "device.firefox": { "prefix": "device.firefox", "body": "device.firefox" },
+
+  "device.firefoxversion": { "prefix": "device.firefoxversion", "body": "device.firefoxversion" },
+  
+  "die": { "prefix": "die", "body": "device.ie" },
+  "device.ie": { "prefix": "device.ie", "body": "device.ie" },
+
+  "device.ieversion": { "prefix": "device.ieversion", "body": "device.ieversion" },
+  
+  "dedge": { "prefix": "dedge", "body": "device.edge" },
+  "device.edge": { "prefix": "device.edge", "body": "device.edge" },
+
+  
+  "dsafari": { "prefix": "dsafari", "body": "device.safari" },
+  "device.safari": { "prefix": "device.safari", "body": "device.safari" },
+
+  "device.safariversion": { "prefix": "device.safariversion", "body": "device.safariversion" },
+  
+  "dopera": { "prefix": "dopera", "body": "device.opera" },
+  "device.opera": { "prefix": "device.opera", "body": "device.opera" },
+
+  "device.operaversion": { "prefix": "device.operaversion", "body": "device.operaversion" },
+  "device.standalone": { "prefix": "device.standalone", "body": "device.standalone" },
+  
+  "dwin": { "prefix": "dwin", "body": "device.windows" },
+  "device.windows": { "prefix": "device.windows", "body": "device.windows" },
+
+  
+  "dmac": { "prefix": "dmac", "body": "device.mac" },
+  "device.mac": { "prefix": "device.mac", "body": "device.mac" },
+
+  
+  "dlnx": { "prefix": "dlnx", "body": "device.linux" },
+  "device.linux": { "prefix": "device.linux", "body": "device.linux" },
+
+
+  "keycode": { "prefix": "keycode", "body": "keycode" },
+  "wheeldelta": { "prefix": "wheeldelta", "body": "wheeldelta" },
+  "wheeldelta_raw": { "prefix": "wheeldelta_raw", "body": "wheeldelta_raw" },
+  "wheeldelta_touchscale": { "prefix": "wheeldelta_touchscale", "body": "wheeldelta_touchscale" },
+  "idletime": { "prefix": "idletime", "body": "idletime" },
+  "timertick": { "prefix": "timertick", "body": "timertick" },
+  "random": { "prefix": "random", "body": "random" },
+
+  "pi": { "prefix": "pi", "body": "Math.PI" },
+  "Math.PI": { "prefix": "Math.PI", "body": "Math.PI" },
+
+  "hlookat_moveforce": { "prefix": "hlookat_moveforce", "body": "hlookat_moveforce" },
+  "vlookat_moveforce": { "prefix": "vlookat_moveforce", "body": "vlookat_moveforce" },
+  "fov_moveforce": { "prefix": "fov_moveforce", "body": "fov_moveforce" },
+  "multireslevel": { "prefix": "multireslevel", "body": "multireslevel" },
+  "lockmultireslevel": { "prefix": "lockmultireslevel", "body": "lockmultireslevel" },
+  "downloadlockedlevel": { "prefix": "downloadlockedlevel", "body": "downloadlockedlevel" },
+
+  "progress.progress": { "prefix": "progress.progress", "body": "progress.progress" },
+  "network.viewerpath": { "prefix": "network.viewerpath", "body": "network.viewerpath" },
+  "network.htmlpath": { "prefix": "network.htmlpath", "body": "network.htmlpath" },
+  "network.firstxmlpath": { "prefix": "network.firstxmlpath", "body": "network.firstxmlpath" },
+  "network.currentxmlpath": { "prefix": "network.currentxmlpath", "body": "network.currentxmlpath" },
+  "haveexternalinterface": { "prefix": "haveexternalinterface", "body": "haveexternalinterface" },
+  "havenetworkaccess": { "prefix": "havenetworkaccess", "body": "havenetworkaccess" },
+
+  "xml.url": { "prefix": "xml.url", "body": "xml.url" },
+  "xml.content": { "prefix": "xml.content", "body": "xml.content" },
+  "xml.scene": { "prefix": "xml.scene", "body": "xml.scene" },
+  "xml.view": { "prefix": "xml.view", "body": "xml.view" },
+
+  "global": { "prefix": "global", "body": "global" },
+  "local": { "prefix": "local", "body": "local" },
+  "debugmode": { "prefix": "debugmode", "body": "debugmode" },
+  "showerrors": { "prefix": "showerrors", "body": "showerrors" },
+  "lasterror": { "prefix": "lasterror", "body": "lasterror" },
+
+  "mx": { "prefix": "mx", "body": "mouse.x" },
+  "mouse.x": { "prefix": "mouse.x", "body": "mouse.x" },
+
+  "my": { "prefix": "my", "body": "mouse.y" },
+  "mouse.y": { "prefix": "mouse.y", "body": "mouse.y" },
+
+  "msx": { "prefix": "msx", "body": "mouse.stagex" },
+  "mouse.stagex": { "prefix": "mouse.stagex", "body": "mouse.stagex" },
+
+  "msy": { "prefix": "msy", "body": "mouse.stagey" },
+  "mouse.stagey": { "prefix": "mouse.stagey", "body": "mouse.stagey" },
+
+  "mdx": { "prefix": "mdx", "body": "mouse.downx" },
+  "mouse.downx": { "prefix": "mouse.downx", "body": "mouse.downx" },
+
+  "mdy": { "prefix": "mdy", "body": "mouse.downy" },
+  "mouse.downy": { "prefix": "mouse.downy", "body": "mouse.downy" },
+
+  "mcx": { "prefix": "mcx", "body": "mouse.clickx" },
+  "mouse.clickx": { "prefix": "mouse.clickx", "body": "mouse.clickx" },
+
+  "mcy": { "prefix": "mcy", "body": "mouse.clicky" },
+  "mouse.clicky": { "prefix": "mouse.clicky", "body": "mouse.clicky" },
+
+
+  "def": { "prefix": "def", "body": "def($1, $2, $3);" },
+  "set": { "prefix": "set", "body": "set($1, $2);" },
+  "get": { "prefix": "get", "body": "get($1, $2);" },
+
+  "sdc": { "prefix": "sdc", "body": "stopdelayedcall($1);" },
+
+  "cp": { "prefix": "cp", "body": "copy($1, $2);" },
+  "cht": { "prefix": "cht", "body": "copy(this, hotspot[%1]);$1" },
+  "clt": { "prefix": "clt", "body": "copy(this, layer[%1]);$1" },
+  "ct": { "prefix": "ct", "body": "copy(this, $2);" },
+  "cc": { "prefix": "cc", "body": "copy($1, calc($2));" },
+  "copy": { "prefix": "copy", "body": "copy($1, $2);" },
+
+  "delete": { "prefix": "delete", "body": "delete();" },
+  "stopcallwhen": { "prefix": "stopcallwhen", "body": "stopcallwhen($1);" },
+  "clearinterval": { "prefix": "clearinterval", "body": "clearinterval($1);" },
+  "toggle": { "prefix": "toggle", "body": "toggle($1);" },
+  "switch": { "prefix": "switch", "body": "switch();" },
+  "break": { "prefix": "break", "body": "break();" },
+  "exitcall": { "prefix": "exitcall", "body": "exitcall();" },
+  "parentscopeset": { "prefix": "parentscopeset", "body": "parentscopeset($1, $2)" },
+  "assignstyle": { "prefix": "assignstyle", "body": "assignstyle($1, $2);" },
+  "copyattributes": { "prefix": "copyattributes", "body": "copyattributes($1, $2)" },
+
+  "add": { "prefix": "add", "body": "add($1, $2);" },
+  "sub": { "prefix": "sub", "body": "sub($1, $2);" },
+  "mul": { "prefix": "mul", "body": "mul($1, $2);" },
+  "div": { "prefix": "div", "body": "div($1, $2);" },
+  "mod": { "prefix": "mod", "body": "mod($1, $2);" },
+  "pow": { "prefix": "pow", "body": "pow($1, $2);" },
+  "inc": { "prefix": "inc", "body": "inc($1);" },
+  "dec": { "prefix": "dec", "body": "dec($1);" },
+  "clamp": { "prefix": "clamp", "body": "clamp($1, $2, $3);" },
+  "calcin": { "prefix": "calcin", "body": "calc($1)" },
+  "calc": { "prefix": "calc", "body": "calc($1, $2);" },
+
+  "abs": { "prefix": "abs", "body": "Math.abs($1);" },
+  "Math.abs": { "prefix": "Math.abs", "body": "Math.abs($1);" },
+
+  "acos": { "prefix": "acos", "body": "Math.acos($1);" },
+  "Math.acos": { "prefix": "Math.acos", "body": "Math.acos($1);" },
+
+  "asin": { "prefix": "asin", "body": "Math.asin($1);" },
+  "Math.asin": { "prefix": "Math.asin", "body": "Math.asin($1);" },
+
+  "atan": { "prefix": "atan", "body": "Math.atan($1);" },
+  "Math.atan": { "prefix": "Math.atan", "body": "Math.atan($1);" },
+
+  "atan2": { "prefix": "atan2", "body": "Math.atan2($1);" },
+  "Math.atan2": { "prefix": "Math.atan2", "body": "Math.atan2($1);" },
+
+  "ceil": { "prefix": "ceil", "body": "Math.ceil($1);" },
+  "Math.ceil": { "prefix": "Math.ceil", "body": "Math.ceil($1);" },
+
+  "cos": { "prefix": "cos", "body": "Math.cos($1);" },
+  "Math.cos": { "prefix": "Math.cos", "body": "Math.cos($1);" },
+
+  "exp": { "prefix": "exp", "body": "Math.exp($1);" },
+  "Math.exp": { "prefix": "Math.exp", "body": "Math.exp($1);" },
+
+  "floor": { "prefix": "floor", "body": "Math.floor($1);" },
+  "Math.floor": { "prefix": "Math.floor", "body": "Math.floor($1);" },
+
+  "log": { "prefix": "log", "body": "Math.log($1);" },
+  "Math.log": { "prefix": "Math.log", "body": "Math.log($1);" },
+
+  "max": { "prefix": "max", "body": "Math.max($1);" },
+  "Math.max": { "prefix": "Math.max", "body": "Math.max($1);" },
+
+  "min": { "prefix": "min", "body": "Math.min($1);" },
+  "Math.min": { "prefix": "Math.min", "body": "Math.min($1);" },
+
+  "pow": { "prefix": "pow", "body": "Math.pow($1);" },
+  "Math.pow": { "prefix": "Math.pow", "body": "Math.pow($1);" },
+
+  "round": { "prefix": "round", "body": "Math.round($1);" },
+  "Math.round": { "prefix": "Math.round", "body": "Math.round($1);" },
+
+  "sin": { "prefix": "sin", "body": "Math.sin($1);" },
+  "Math.sin": { "prefix": "Math.sin", "body": "Math.sin($1);" },
+
+  "sqrt": { "prefix": "sqrt", "body": "Math.sqrt($1);" },
+  "Math.sqrt": { "prefix": "Math.sqrt", "body": "Math.sqrt($1);" },
+
+  "tan": { "prefix": "tan", "body": "Math.tan($1);" },
+  "Math.tan": { "prefix": "Math.tan", "body": "Math.tan($1);" },
+
+
+  "cwh": { "prefix": "cwh", "body": "callwith(hotspot[$1], $2);" },
+  "cwl": { "prefix": "cwl", "body": "callwith(layer[$1], $2);" },
+  "cwt": { "prefix": "cwt", "body": "callwith(this, $2);" },
+
+  "cw": { "prefix": "cw", "body": "callwith($1, $2);" },
+  "callwith": { "prefix": "callwith", "body": "callwith($1, $2);" },
+
+  "roundval": { "prefix": "roundval", "body": "roundval($1, $2);" },
+  "tohex": { "prefix": "tohex", "body": "tohex($1, $2, $3);" },
+  "tolower": { "prefix": "tolower", "body": "tolower($1);" },
+  "toupper": { "prefix": "toupper", "body": "toupper($1);" },
+  "txtadd": { "prefix": "txtadd", "body": "txtadd();" },
+  "subtxt": { "prefix": "subtxt", "body": "subtxt();" },
+  "indexoftxt": { "prefix": "indexoftxt", "body": "indexoftxt();" },
+  "txtreplace": { "prefix": "txtreplace", "body": "txtreplace();" },
+  "txtsplit": { "prefix": "txtsplit", "body": "txtsplit();" },
+  "fromcharcode": { "prefix": "fromcharcode", "body": "fromcharcode();" },
+  "escape": { "prefix": "escape", "body": "escape();" },
+  "unscape": { "prefix": "unscape", "body": "unscape();" },
+  "tween": { "prefix": "tween", "body": "tween($1);" },
+  "stoptween": { "prefix": "stoptween", "body": "stoptween($1);" },
+  "loadpano": { "prefix": "loadpano", "body": "loadpano($1);" },
+  "loadscene": { "prefix": "loadscene", "body": "loadscene($1);" },
+  "loadpanoscene": { "prefix": "loadpanoscene", "body": "loadpanoscene($1);" },
+  "loadxml": { "prefix": "loadxml", "body": "loadxml($1);" },
+  "openurl": { "prefix": "openurl", "body": "openurl($1);" },
+  "lookat": { "prefix": "lookat", "body": "lookat($1);" },
+  "lookto": { "prefix": "lookto", "body": "lookto($1);" },
+  "looktohotspot": { "prefix": "looktohotspot", "body": "looktohotspot($1);" },
+  "moveto": { "prefix": "moveto", "body": "moveto($1);" },
+  "zoomto": { "prefix": "zoomto", "body": "zoomto($1);" },
+  "adjusthlookat": { "prefix": "adjusthlookat", "body": "adjusthlookat($1);" },
+  "getlooktodistance": { "prefix": "getlooktodistance", "body": "getlooktodistance($1);" },
+  "stoplookto": { "prefix": "stoplookto", "body": "stoplookto($1);" },
+  "stopmovements": { "prefix": "stopmovements", "body": "stopmovements($1);" },
+  "wait": { "prefix": "wait", "body": "wait();" },
+  "events.dispatch": { "prefix": "events.dispatch", "body": "events.dispatch($1);" },
+
+  "autorotate.start": { "prefix": "autorotate.start", "body": "autorotate.start();" },
+  "autorotate.stop": { "prefix": "autorotate.stop", "body": "autorotate.stop();" },
+  "autorotate.interrupt": { "prefix": "autorotate.interrupt", "body": "autorotate.interrupt();" },
+  "autorotate.pause": { "prefix": "autorotate.pause", "body": "autorotate.pause();" },
+  "autorotate.resume": { "prefix": "autorotate.resume", "body": "autorotate.resume();" },
+
+  "screentosphere": { "prefix": "screentosphere", "body": "screentosphere();" },
+  "spheretoscreen": { "prefix": "spheretoscreen", "body": "spheretoscreen();" },
+  "screentolayer": { "prefix": "screentolayer", "body": "screentolayer();" },
+  "layertoscreen": { "prefix": "layertoscreen", "body": "layertoscreen();" },
+  "remapfovtype": { "prefix": "remapfovtype", "body": "remapfovtype();" },
+
+  "showtext": { "prefix": "showtext", "body": "showtext($1);" },
+  "updateobject": { "prefix": "updateobject", "body": "updateobject($1);" },
+  "updatescreen": { "prefix": "updatescreen", "body": "updatescreen();" },
+  "invalidatescreen": { "prefix": "invalidatescreen", "body": "invalidatescreen();" },
+  "addlayer": { "prefix": "addlayer", "body": "addlayer($1);" },
+  "addplugin": { "prefix": "addplugin", "body": "addplugin($1);" },
+  "removelayer": { "prefix": "removelayer", "body": "removelayer($1);" },
+  "removeplugin": { "prefix": "removeplugin", "body": "removeplugin($1);" },
+  "addhotspot": { "prefix": "addhotspot", "body": "addhotspot($1);" },
+  "removehotspot": { "prefix": "removehotspot", "body": "removehotspot($1);" },
+  "addlensflare": { "prefix": "addlensflare", "body": "addlensflare($1);" },
+  "removelensflare": { "prefix": "removelensflare", "body": "removelensflare($1);" },
+
+  "loadstyle": { "prefix": "loadstyle", "body": "loadstyle($1);" },
+  "registercontentsize": { "prefix": "registercontentsize", "body": "registercontentsize($1);" },
+  "resetsize": { "prefix": "resetsize", "body": "resetsize();" },
+  "updatepos": { "prefix": "updatepos", "body": "updatepos();" },
+  "changeorigin": { "prefix": "changeorigin", "body": "changeorigin($1);" },
+  "getfullpath": { "prefix": "getfullpath", "body": "getfullpath();" },
+  "getcenter": { "prefix": "getcenter", "body": "getcenter();" },
+
+  "js": { "prefix": "js", "body": "js( $1 );" },
+  "jscall": { "prefix": "jscall", "body": "jscall( '$1' );" },
+  "jsget": { "prefix": "jsget", "body": "jsget($1, $2);" },
+  "showlog": { "prefix": "showlog", "body": "showlog($1);" },
+  "debugvar": { "prefix": "debugvar", "body": "debugvar($1);" },
+  "debug": { "prefix": "debug", "body": "debug($1);" },
+  "trace": { "prefix": "trace", "body": "trace($1);" },
+  "warning": { "prefix": "warning", "body": "warning($1);" },
+  "error": { "prefix": "error", "body": "error($1);" },
+  "fatalerror": { "prefix": "fatalerror", "body": "fatalerror($1);" },
+
+  "onstart": { "prefix": "onstart", "body": "onstart" },
+  "basedir": { "prefix": "basedir", "body": "basedir" },
+  "colorcorrection": { "prefix": "colorcorrection", "body": "colorcorrection" },
+  "logkey": { "prefix": "logkey", "body": "logkey" },
+  "strict": { "prefix": "strict", "body": "strict" },
+
+  "type": { "prefix": "type", "body": "type" },
+  "url": { "prefix": "url", "body": "url" },
+  "striporder": { "prefix": "striporder", "body": "striporder" },
+
+  "include": { "prefix": "include", "body": "<include url=\"$1\" />" },
+  "preview": { "prefix": "preview", "body": "<preview url=\"$1\" />" },
+  "image": { "prefix": "image", "body": "image" },
+  "view": { "prefix": "view", "body": "view" },
+  "area": { "prefix": "area", "body": "area" },
+  "display": { "prefix": "display", "body": "display" },
+  "control": { "prefix": "control", "body": "control" },
+  "cursors": { "prefix": "cursors", "body": "cursors" },
+  "autorotate": { "prefix": "autorotate", "body": "autorotate" },
+  "contextmenu": { "prefix": "contextmenu", "body": "contextmenu" },
+  "network": { "prefix": "network", "body": "network" },
+  "memory": { "prefix": "memory", "body": "<memory maxmem=\"$1\" devices=\"$2\" />" },
+  "security": { "prefix": "security", "body": "security" },
+  "textstyle": { "prefix": "textstyle", "body": "textstyle" },
+  "lensflareset": { "prefix": "lensflareset", "body": "lensflareset" },
+  "lensflare": { "prefix": "lensflare", "body": "lensflare" },
+  "this": { "prefix": "this", "body": "<this />" },
+
+  "hlookat": { "prefix": "hlookat", "body": "hlookat" },
+  "vlookat": { "prefix": "vlookat", "body": "vlookat" },
+  "camroll": { "prefix": "camroll", "body": "camroll" },
+  "fovtype": { "prefix": "fovtype", "body": "fovtype" },
+  "fov": { "prefix": "fov", "body": "fov" },
+  "fovmin": { "prefix": "fovmin", "body": "fovmin" },
+  "fovmax": { "prefix": "fovmax", "body": "fovmax" },
+  "maxpixelzoom": { "prefix": "maxpixelzoom", "body": "maxpixelzoom" },
+  "mfovratio": { "prefix": "mfovratio", "body": "mfovratio" },
+  "distortion": { "prefix": "distortion", "body": "distortion" },
+  "distortionfovlink": { "prefix": "distortionfovlink", "body": "distortionfovlink" },
+  "stereographic": { "prefix": "stereographic", "body": "stereographic" },
+  "pannini": { "prefix": "pannini", "body": "pannini" },
+  "architectural": { "prefix": "architectural", "body": "architectural" },
+  "architecturalonlymiddle": { "prefix": "architecturalonlymiddle", "body": "architecturalonlymiddle" },
+  "limitview": { "prefix": "limitview", "body": "limitview" },
+  "hlookatmin": { "prefix": "hlookatmin", "body": "hlookatmin" },
+  "hlookatmax": { "prefix": "hlookatmax", "body": "hlookatmax" },
+  "vlookatmin": { "prefix": "vlookatmin", "body": "vlookatmin" },
+  "vlookatmax": { "prefix": "vlookatmax", "body": "vlookatmax" },
+
+  "mode": { "prefix": "mode", "body": "mode" },
+  "left": { "prefix": "left", "body": "left" },
+  "top": { "prefix": "top", "body": "top" },
+  "right": { "prefix": "right", "body": "right" },
+  "bottom": { "prefix": "bottom", "body": "bottom" },
+
+  "autofullscreen": { "prefix": "autofullscreen", "body": "autofullscreen" },
+  "stereo": { "prefix": "stereo", "body": "stereo" },
+  "stereooverlap": { "prefix": "stereooverlap", "body": "stereooverlap" },
+  "stereoscale": { "prefix": "stereoscale", "body": "stereoscale" },
+  "monoside": { "prefix": "monoside", "body": "monoside" },
+  "anaglyph": { "prefix": "anaglyph", "body": "anaglyph" },
+  "safearea": { "prefix": "safearea", "body": "safearea" },
+  "hardwarelimit": { "prefix": "hardwarelimit", "body": "hardwarelimit" },
+  "usedesktopimages": { "prefix": "usedesktopimages", "body": "usedesktopimages" },
+  "mipmapping": { "prefix": "mipmapping", "body": "mipmapping" },
+  "loadwhilemoving": { "prefix": "loadwhilemoving", "body": "loadwhilemoving" },
+  "framebufferscale": { "prefix": "framebufferscale", "body": "framebufferscale" },
+  "hotspotvrrendering": { "prefix": "hotspotvrrendering", "body": "hotspotvrrendering" },
+
+  "usercontrol": { "prefix": "usercontrol", "body": "usercontrol" },
+  "mouse": { "prefix": "mouse", "body": "mouse" },
+  "touch": { "prefix": "touch", "body": "touch" },
+  "dragrelative": { "prefix": "dragrelative", "body": "dragrelative" },
+  "draginertia": { "prefix": "draginertia", "body": "draginertia" },
+  "dragfriction": { "prefix": "dragfriction", "body": "dragfriction" },
+  "drag_oldmode": { "prefix": "drag_oldmode", "body": "drag_oldmode" },
+  "movetorelative": { "prefix": "movetorelative", "body": "movetorelative" },
+  "movetoaccelerate": { "prefix": "movetoaccelerate", "body": "movetoaccelerate" },
+  "movetospeed": { "prefix": "movetospeed", "body": "movetospeed" },
+  "movetofriction": { "prefix": "movetofriction", "body": "movetofriction" },
+  "movetoyfriction": { "prefix": "movetoyfriction", "body": "movetoyfriction" },
+  "keybaccelerate": { "prefix": "keybaccelerate", "body": "keybaccelerate" },
+  "keybspeed": { "prefix": "keybspeed", "body": "keybspeed" },
+  "keybfriction": { "prefix": "keybfriction", "body": "keybfriction" },
+  "keybinvert": { "prefix": "keybinvert", "body": "keybinvert" },
+  "keybfovchange": { "prefix": "keybfovchange", "body": "keybfovchange" },
+  "mousefovchange": { "prefix": "mousefovchange", "body": "mousefovchange" },
+  "fovspeed": { "prefix": "fovspeed", "body": "fovspeed" },
+  "fovfriction": { "prefix": "fovfriction", "body": "fovfriction" },
+  "zoomtocursor": { "prefix": "zoomtocursor", "body": "zoomtocursor" },
+  "zoomoutcursor": { "prefix": "zoomoutcursor", "body": "zoomoutcursor" },
+  "touchzoom": { "prefix": "touchzoom", "body": "touchzoom" },
+  "keycodesleft": { "prefix": "keycodesleft", "body": "keycodesleft" },
+  "keycodesright": { "prefix": "keycodesright", "body": "keycodesright" },
+  "keycodesup": { "prefix": "keycodesup", "body": "keycodesup" },
+  "keycodesdown": { "prefix": "keycodesdown", "body": "keycodesdown" },
+  "keycodesin": { "prefix": "keycodesin", "body": "keycodesin" },
+  "keycodesout": { "prefix": "keycodesout", "body": "keycodesout" },
+  "keydownrepeat": { "prefix": "keydownrepeat", "body": "keydownrepeat" },
+  "bouncinglimits": { "prefix": "bouncinglimits", "body": "bouncinglimits" },
+
+  "standard": { "prefix": "standard", "body": "standard" },
+  "dragging": { "prefix": "dragging", "body": "dragging" },
+  "moving": { "prefix": "moving", "body": "moving" },
+  "move": { "prefix": "move", "body": "move" },
+  "drag": { "prefix": "drag", "body": "drag" },
+  "arrow_l": { "prefix": "arrow_l", "body": "arrow_l" },
+  "arrow_r": { "prefix": "arrow_r", "body": "arrow_r" },
+  "arrow_u": { "prefix": "arrow_u", "body": "arrow_u" },
+  "arrow_d": { "prefix": "arrow_d", "body": "arrow_d" },
+  "arrow_lu": { "prefix": "arrow_lu", "body": "arrow_lu" },
+  "arrow_ru": { "prefix": "arrow_ru", "body": "arrow_ru" },
+  "arrow_ld": { "prefix": "arrow_ld", "body": "arrow_ld" },
+  "arrow_rd": { "prefix": "arrow_rd", "body": "arrow_rd" },
+
+  "waittime": { "prefix": "waittime", "body": "waittime" },
+  "accel": { "prefix": "accel", "body": "accel" },
+  "speed": { "prefix": "speed", "body": "speed" },
+  "horizon": { "prefix": "horizon", "body": "horizon" },
+  "tofov": { "prefix": "tofov", "body": "tofov" },
+  "zoomslowdown": { "prefix": "zoomslowdown", "body": "zoomslowdown" },
+  "interruptionevents": { "prefix": "interruptionevents", "body": "interruptionevents" },
+
+  "name": { "prefix": "name", "body": "name" },
+  "type": { "prefix": "type", "body": "type" },
+  "keep": { "prefix": "keep", "body": "keep" },
+  "parent": { "prefix": "parent", "body": "parent" },
+  "visible": { "prefix": "visible", "body": "visible" },
+  "enabled": { "prefix": "enabled", "body": "enabled" },
+  "handcursor": { "prefix": "handcursor", "body": "handcursor" },
+  "maskchildren": { "prefix": "maskchildren", "body": "maskchildren" },
+  "mct": { "prefix": "mct", "body": "maskchildren=\"true\"" },
+  "scalechildren": { "prefix": "scalechildren", "body": "scalechildren" },
+  "zorder": { "prefix": "zorder", "body": "zorder" },
+  "capture": { "prefix": "capture", "body": "capture" },
+  "children": { "prefix": "children", "body": "children" },
+  "preload": { "prefix": "preload", "body": "preload" },
+  "blendmode": { "prefix": "blendmode", "body": "blendmode" },
+  "style": { "prefix": "style", "body": "style" },
+  "align": { "prefix": "align", "body": "align" },
+  "edge": { "prefix": "edge", "body": "edge" },
+  "safearea": { "prefix": "safearea", "body": "safearea" },
+  "x": { "prefix": "x", "body": "x" },
+  "y": { "prefix": "y", "body": "y" },
+  "xy": { "prefix": "xy", "body": "x=\"$1\" y=\"$2\"" },
+  "oxy": { "prefix": "oxy", "body": "ox=\"$1\" oy=\"$2\"" },
+  "ox": { "prefix": "ox", "body": "ox" },
+  "oy": { "prefix": "oy", "body": "oy" },
+  "rotate": { "prefix": "rotate", "body": "rotate" },
+  "w": { "prefix": "w", "body": "width=\"$1\" " },
+  "pw": { "prefix": "pw", "body": "pixelwidth " },
+  "h": { "prefix": "h", "body": "height=\"$1\" " },
+  "ph": { "prefix": "ph", "body": "pixelheight " },
+  "wh": { "prefix": "wh", "body": "width=\"$1\" height=\"$2\"" },
+  "whm": { "prefix": "whm", "body": "width.mobile=\"$1\" height.mobile=\"$2\"" },
+  "scale": { "prefix": "scale", "body": "scale" },
+  "pixelhittest": { "prefix": "pixelhittest", "body": "pixelhittest" },
+  "smoothing": { "prefix": "smoothing", "body": "smoothing" },
+  "accuracy": { "prefix": "accuracy", "body": "accuracy" },
+  "alpha": { "prefix": "alpha", "body": "alpha" },
+  "autoalpha": { "prefix": "autoalpha", "body": "autoalpha" },
+  "usecontentsize": { "prefix": "usecontentsize", "body": "usecontentsize" },
+  "scale9grid": { "prefix": "scale9grid", "body": "scale9grid" },
+  "crop": { "prefix": "crop", "body": "crop" },
+  "onovercrop": { "prefix": "onovercrop", "body": "onovercrop" },
+  "ondowncrop": { "prefix": "ondowncrop", "body": "ondowncrop" },
+  "mask": { "prefix": "mask", "body": "mask" },
+  "effect": { "prefix": "effect", "body": "effect" },
+  "bgf": { "prefix": "bgf", "body": "bg=\"false\"" },
+  "bgcolor": { "prefix": "bgcolor", "body": "bgcolor" },
+  "bgalpha": { "prefix": "bgalpha", "body": "bgalpha" },
+  "bgborder": { "prefix": "bgborder", "body": "bgborder" },
+  "bgroundedge": { "prefix": "bgroundedge", "body": "bgroundedge" },
+  "bgshadow": { "prefix": "bgshadow", "body": "bgshadow" },
+  "bgcapture": { "prefix": "bgcapture", "body": "bgcapture" },
+  
+  "onenterfullscreen": { "prefix": "onenterfullscreen", "body": "onenterfullscreen" },
+  "onexitfullscreen": { "prefix": "onexitfullscreen", "body": "onexitfullscreen" },
+  "onxmlcomplete": { "prefix": "onxmlcomplete", "body": "onxmlcomplete" },
+  "onpreviewcomplete": { "prefix": "onpreviewcomplete", "body": "onpreviewcomplete" },
+  "onloadcomplete": { "prefix": "onloadcomplete", "body": "onloadcomplete" },
+  "onnewpano": { "prefix": "onnewpano", "body": "onnewpano" },
+  "onremovepano": { "prefix": "onremovepano", "body": "onremovepano" },
+  "onnewscene": { "prefix": "onnewscene", "body": "onnewscene" },
+  "onxmlerror": { "prefix": "onxmlerror", "body": "onxmlerror" },
+  "onloaderror": { "prefix": "onloaderror", "body": "onloaderror" },
+  "onkeydown": { "prefix": "onkeydown", "body": "onkeydown" },
+  "onkeyup": { "prefix": "onkeyup", "body": "onkeyup" },
+  "onsingleclick": { "prefix": "onsingleclick", "body": "onsingleclick" },
+  "ondoubleclick": { "prefix": "ondoubleclick", "body": "ondoubleclick" },
+  "onmousedown": { "prefix": "onmousedown", "body": "onmousedown" },
+  "onmouseup": { "prefix": "onmouseup", "body": "onmouseup" },
+  "onmousewheel": { "prefix": "onmousewheel", "body": "onmousewheel" },
+  "oncontextmenu": { "prefix": "oncontextmenu", "body": "oncontextmenu" },
+  "onidle": { "prefix": "onidle", "body": "onidle" },
+  "onviewchange": { "prefix": "onviewchange", "body": "onviewchange" },
+  "onviewchanged": { "prefix": "onviewchanged", "body": "onviewchanged" },
+  "onresize": { "prefix": "onresize", "body": "onresize" },
+  "onautorotatestart": { "prefix": "onautorotatestart", "body": "onautorotatestart" },
+  "onautorotatestop": { "prefix": "onautorotatestop", "body": "onautorotatestop" },
+  "onautorotateoneround": { "prefix": "onautorotateoneround", "body": "onautorotateoneround" },
+  "onautorotatechange": { "prefix": "onautorotatechange", "body": "onautorotatechange" },
+  "gyro_onavailable": { "prefix": "gyro_onavailable", "body": "gyro_onavailable" },
+  "gyro_onunavailable": { "prefix": "gyro_onunavailable", "body": "gyro_onunavailable" },
+  "gyro_onenable": { "prefix": "gyro_onenable", "body": "gyro_onenable" },
+  "gyro_ondisable": { "prefix": "gyro_ondisable", "body": "gyro_ondisable" },
+  "webvr_onavailable": { "prefix": "webvr_onavailable", "body": "webvr_onavailable" },
+  "webvr_onunavailable": { "prefix": "webvr_onunavailable", "body": "webvr_onunavailable" },
+  "webvr_onunknowndevice": { "prefix": "webvr_onunknowndevice", "body": "webvr_onunknowndevice" },
+  "webvr_onentervr": { "prefix": "webvr_onentervr", "body": "webvr_onentervr" },
+  "webvr_onexitvr": { "prefix": "webvr_onexitvr", "body": "webvr_onexitvr" },
+
+  "renderer": { "prefix": "renderer", "body": "renderer" },
+  "zorder2": { "prefix": "zorder2", "body": "zorder2" },
+  "premultiplyalpha": { "prefix": "premultiplyalpha", "body": "premultiplyalpha" },
+  "ath": { "prefix": "ath", "body": "ath" },
+  "zoom": { "prefix": "zoom", "body": "zoom" },
+  "distorted": { "prefix": "distorted", "body": "distorted" },
+  "depth": { "prefix": "depth", "body": "depth" },
+  "tx": { "prefix": "tx", "body": "tx" },
+  "ty": { "prefix": "ty", "body": "ty" },
+  "tz": { "prefix": "tz", "body": "tz" },
+  "rx": { "prefix": "rx", "body": "rx" },
+  "ry": { "prefix": "ry", "body": "ry" },
+  "rz": { "prefix": "rz", "body": "rz" },
+  "details": { "prefix": "details", "body": "details" },
+  "inverserotation": { "prefix": "inverserotation", "body": "inverserotation" },
+  "flying": { "prefix": "flying", "body": "flying" },
+  "scaleflying": { "prefix": "scaleflying", "body": "scaleflying" },
+  "stereo": { "prefix": "stereo", "body": "stereo" },
+
+  "native": { "prefix": "native", "body": "native" },
+  "versioninfo": { "prefix": "versioninfo", "body": "versioninfo" },
+  "customstyle": { "prefix": "customstyle", "body": "customstyle" },
+  "enterfs": { "prefix": "enterfs", "body": "enterfs" },
+  "exitfs": { "prefix": "exitfs", "body": "exitfs" },
+  "caption": { "prefix": "caption", "body": "caption" },
+  "separator": { "prefix": "separator", "body": "separator" },
+  "showif": { "prefix": "showif", "body": "showif" },
+
+  "crossdomainxml": { "prefix": "crossdomainxml", "body": "crossdomainxml" },
+  "allowdomain": { "prefix": "allowdomain", "body": "allowdomain" },
+
+  "pixsize": { "prefix": "pixsize", "body": "pixsize" },
+  "pixupos": { "prefix": "pixupos", "body": "pixupos" },
+  "pixvpos": { "prefix": "pixvpos", "body": "pixvpos" },
+  "pos": { "prefix": "pos", "body": "pos" },
+
+  "blind": { "prefix": "blind", "body": "blind" },
+  "blindcurve": { "prefix": "blindcurve", "body": "blindcurve" },
+
+  "html": { "prefix": "html", "body": "html" },
+  "css": { "prefix": "css", "body": "css" },
+  "vcenter": { "prefix": "vcenter", "body": "vcenter" },
+  "padding": { "prefix": "padding", "body": "padding" },
+  "wordwrap": { "prefix": "wordwrap", "body": "wordwrap" },
+  "mergedalpha": { "prefix": "mergedalpha", "body": "mergedalpha" },
+  "interactivecontent": { "prefix": "interactivecontent", "body": "interactivecontent" },
+  "ict": { "prefix": "ict", "body": "interactivecontent=\"true\"" },
+  "onautosized": { "prefix": "onautosized", "body": "onautosized" },
+  "oversampling": { "prefix": "oversampling", "body": "oversampling" },
+  "ovs": { "prefix": "ovs", "body": "oversampling=\"2\" " },
+
+  "videourl": { "prefix": "videourl", "body": "videourl" },
+  "posterurl": { "prefix": "posterurl", "body": "posterurl" },
+  "pausedonstart": { "prefix": "pausedonstart", "body": "pausedonstart" },
+  "loop": { "prefix": "loop", "body": "loop" },
+  "volume": { "prefix": "volume", "body": "volume" },
+  "onvideoready": { "prefix": "onvideoready", "body": "onvideoready" },
+  "onvideoplay": { "prefix": "onvideoplay", "body": "onvideoplay" },
+  "onvideopaused": { "prefix": "onvideopaused", "body": "onvideopaused" },
+  "onvideocomplete": { "prefix": "onvideocomplete", "body": "onvideocomplete" },
+  "onerror": { "prefix": "onerror", "body": "onerror" },
+  "directionalsound": { "prefix": "directionalsound", "body": "directionalsound" },
+  "range": { "prefix": "range", "body": "range" },
+  "rangefalloff": { "prefix": "rangefalloff", "body": "rangefalloff" },
+  "outofrangevolume": { "prefix": "outofrangevolume", "body": "outofrangevolume" },
+  "isvideoready": { "prefix": "isvideoready", "body": "isvideoready" },
+  "ispaused": { "prefix": "ispaused", "body": "ispaused" },
+  "isseeking": { "prefix": "isseeking", "body": "isseeking" },
+  "iscomplete": { "prefix": "iscomplete", "body": "iscomplete" },
+  "isautopaused": { "prefix": "isautopaused", "body": "isautopaused" },
+  "needtouch": { "prefix": "needtouch", "body": "needtouch" },
+  "needtouch": { "prefix": "needtouch", "body": "needtouch" },
+  "videoerror": { "prefix": "videoerror", "body": "videoerror" },
+  "time": { "prefix": "time", "body": "time" },
+  "totaltime": { "prefix": "totaltime", "body": "totaltime" },
+  "videowidth": { "prefix": "videowidth", "body": "videowidth" },
+  "videoheight": { "prefix": "videoheight", "body": "videoheight" },
+  "loadedbytes": { "prefix": "loadedbytes", "body": "loadedbytes" },
+  "totalbytes": { "prefix": "totalbytes", "body": "totalbytes" },
+  "playvideo": { "prefix": "playvideo", "body": "playvideo();" },
+  "play": { "prefix": "play", "body": "play();" },
+  "pause": { "prefix": "pause", "body": "pause();" },
+  "togglepause": { "prefix": "togglepause", "body": "togglepause();" },
+  "stop": { "prefix": "stop", "body": "stop();" },
+  "seek": { "prefix": "seek", "body": "seek($1);" },
+
+  "rootpath": { "prefix": "rootpath", "body": "rootpath" },
+  "preloadsound": { "prefix": "preloadsound", "body": "preloadsound($1);" },
+  "playsound2D": { "prefix": "playsound2D", "body": "playsound2D($1);" },
+  "playsound3D": { "prefix": "playsound3D", "body": "playsound3D($1);" },
+  "playsound3Dh": { "prefix": "playsound3Dh", "body": "playsound3Dh($1);" },
+  "playsound3DHS": { "prefix": "playsound3DHS", "body": "playsound3DHS($1);" },
+  "pausesound": { "prefix": "pausesound", "body": "pausesound($1);" },
+  "pausesoundtoggle": { "prefix": "pausesoundtoggle", "body": "pausesoundtoggle($1);" },
+  "stopsound": { "prefix": "stopsound", "body": "stopsound($1);" },
+
+  "direction": { "prefix": "direction", "body": "direction" },
+  "draggable": { "prefix": "draggable", "body": "draggable" },
+  "mwheel": { "prefix": "mwheel", "body": "mwheel" },
+  "onhover_autoscrolling": { "prefix": "onhover_autoscrolling", "body": "onhover_autoscrolling" },
+  "overscroll": { "prefix": "overscroll", "body": "overscroll" },
+  "friction": { "prefix": "friction", "body": "friction" },
+  "acceleration": { "prefix": "acceleration", "body": "acceleration" },
+  "returnacceleration": { "prefix": "returnacceleration", "body": "returnacceleration" },
+  "momentum": { "prefix": "momentum", "body": "momentum" },
+  "onscroll": { "prefix": "onscroll", "body": "onscroll" },
+  "loverflow": { "prefix": "loverflow", "body": "loverflow" },
+  "roverflow": { "prefix": "roverflow", "body": "roverflow" },
+  "toverflow": { "prefix": "toverflow", "body": "toverflow" },
+  "boverflow": { "prefix": "boverflow", "body": "boverflow" },
+  "woverflow": { "prefix": "woverflow", "body": "woverflow" },
+  "hoverflow": { "prefix": "hoverflow", "body": "hoverflow" },
+  "setcenter": { "prefix": "setcenter", "body": "setcenter($1);" },
+  "scrolltocenter": { "prefix": "scrolltocenter", "body": "scrolltocenter($1);" },
+  "scrollby": { "prefix": "scrollby", "body": "scrollby($1);" },
+  "stopscrolling": { "prefix": "stopscrolling", "body": "stopscrolling();" },
+  "update": { "prefix": "update", "body": "update();" },
+
+  "ef": { "prefix": "ef", "body": "enabled=\"false\"" },
+  "et": { "prefix": "et", "body": "enabled=\"true\"" },
+
+  "vf": { "prefix": "vf", "body": "visible=\"false\"" },
+  "vt": { "prefix": "vt", "body": "visible=\"true\"" },
+
+  "tt": { "prefix": "tt", "body": "type=\"text\"" },
+  "tc": { "prefix": "tc", "body": "type=\"container\"" },
+
+  "hct": { "prefix": "hct", "body": "handcursor=\"true\"" },
+  "hcf": { "prefix": "hcf", "body": "handcursor=\"false\"" },
+
+  "at": { "prefix": "at", "body": "align=\"top\"" },
+  "atr": { "prefix": "atr", "body": "align=\"righttop\"" },
+  "art": { "prefix": "art", "body": "align=\"righttop\"" },
+  "ar": { "prefix": "ar", "body": "align=\"right\"" },
+  "arb": { "prefix": "arb", "body": "align=\"rightbottom\"" },
+  "abr": { "prefix": "abr", "body": "align=\"rightbottom\"" },
+  "ab": { "prefix": "ab", "body": "align=\"bottom\"" },
+  "alb": { "prefix": "alb", "body": "align=\"leftbottom\"" },
+  "abl": { "prefix": "abl", "body": "align=\"leftbottom\"" },
+  "al": { "prefix": "al", "body": "align=\"left\"" },
+  "alt": { "prefix": "alt", "body": "align=\"lefttop\"" },
+  "atl": { "prefix": "atl", "body": "align=\"lefttop\"" },
+  "ac": { "prefix": "ac", "body": "align=\"center\"" },
+
+  "et": { "prefix": "et", "body": "edge=\"top\"" },
+  "etr": { "prefix": "etr", "body": "edge=\"righttop\"" },
+  "ert": { "prefix": "ert", "body": "edge=\"righttop\"" },
+  "er": { "prefix": "er", "body": "edge=\"right\"" },
+  "erb": { "prefix": "erb", "body": "edge=\"rightbottom\"" },
+  "ebr": { "prefix": "ebr", "body": "edge=\"rightbottom\"" },
+  "eb": { "prefix": "eb", "body": "edge=\"bottom\"" },
+  "elb": { "prefix": "elb", "body": "edge=\"leftbottom\"" },
+  "ebl": { "prefix": "ebl", "body": "edge=\"leftbottom\"" },
+  "el": { "prefix": "el", "body": "edge=\"left\"" },
+  "elt": { "prefix": "elt", "body": "edge=\"lefttop\"" },
+  "etl": { "prefix": "etl", "body": "edge=\"lefttop\"" },
+  "ec": { "prefix": "ec", "body": "edge=\"center\"" },
+
+  "kt": { "prefix": "kt", "body": "keep=\"true\"" },
+  "kf": { "prefix": "kf", "body": "keep=\"false\"" },
+
+  "w100": { "prefix": "w100", "body": "width=\"100%\" " },
+  "h100": { "prefix": "h100", "body": "height=\"100%\" " },
+  "w100h100": { "prefix": "w100h100", "body": "width=\"100%\" height=\"100%\" " },
+
+  "bgc": { "prefix": "bgc", "body": "bgcolor=\"0x$1\" " },
+  "bga": { "prefix": "bga", "body": "bgalpha=\"$1\" " },
+  "bgb": { "prefix": "bgb", "body": "bgborder=\"$1\" " },
+  "bgr": { "prefix": "bgr", "body": "bgroundedge=\"$1\" " },
+  "bgs": { "prefix": "bgs", "body": "bgshadow=\"$1\" " },
+  "txs": { "prefix": "txs", "body": "txtshadow=\"$1\" " },
+  "bgcp": { "prefix": "bgcp", "body": "bgcapture=\"$1\" " },
+
+  "ov": { "prefix": "ov", "body": "onover=\"\n\t$1\n\"" },
+  "od": { "prefix": "od", "body": "ondown=\"\n\t$1\n\"" },
+  "odt": { "prefix": "odt", "body": "ondown.touch=\"\n\t$1\n\"" },
+  "oh": { "prefix": "oh", "body": "onhover=\"\n\t$1\n\"" },
+  "oo": { "prefix": "oo", "body": "onout=\"\n\t$1\n\"" },
+  "oc": { "prefix": "oc", "body": "onclick=\"\n\t$1\n\"" },
+  "oct": { "prefix": "oct", "body": "onclick.touch=\"\n\t$1\n\"" },
+  "oc1": { "prefix": "oc1", "body": "onclick=\"\n\tdelayedcall (0.1,\n\t\tonclick_actions();\n\t);\n\"\nonclick_actions=\"\n\t$1\n\"" },
+  "oc2": { "prefix": "oc2", "body": "onclick=\"\n\tdelayedcall (get(uiReactionDelay),\n\t\tonclickActions();\n\t);\n\"\nonclickActions=\"\n\t$1\n\"" },
+  "oct1": { "prefix": "oct1", "body": "onclick.touch=\"\n\tdelayedcall(0.1,\n\t\tonclick_actions();\n\t);\n\"" },
+  "ou": { "prefix": "ou", "body": "onup=\"\n\t$1\n\"" },
+  "out": { "prefix": "out", "body": "onup.touch=\"\n\t$1\n\"" },
+  "ol": { "prefix": "ol", "body": "onloaded=\"\n\t$1\n\"" },
+  "oa": { "prefix": "oa", "body": "onautosized=\"\n\t$1\n\"" },
+  "ovr": { "prefix": "ovr", "body": "onvideoready=\"\n\t$1\n\"" },
+  "ovpl": { "prefix": "ovpl", "body": "onvideoplay=\"\n\t$1\n\"" },
+  "ovpa": { "prefix": "ovpa", "body": "onvideopaused=\"\n\t$1\n\"" },
+  "ovc": { "prefix": "ovc", "body": "onvideocomplete=\"\n\t$1\n\"" },
+  "ont": { "prefix": "ont", "body": "onneedtouch=\"\n\t$1\n\"" },
+  "ong": { "prefix": "ong", "body": "ongottouch=\"\n\t$1\n\"" },
+  "oerr": { "prefix": "oerr", "body": "onerror=\"\n\t$1\n\"" },
+  "os": { "prefix": "os", "body": "onscroll=\"\n\t$1\n\"" },
+  "oav": { "prefix": "oav", "body": "onavailable=\"\n\t$1\n\"" },
+  "oua": { "prefix": "oua", "body": "onunavailable=\"\n\t$1\n\"" },
+  "oe": { "prefix": "oe", "body": "onenable=\"\n\t$1\n\"" },
+  "odis": { "prefix": "odis", "body": "ondisable=\"\n\t$1\n\"" },
+
+  "oexfs": { "prefix": "oexfs", "body": "onexitfullscreen=\"\n\t$1\n\"" },
+  "oxc": { "prefix": "oxc", "body": "onxmlcomplete=\"\n\t$1\n\"" },
+  "opc": { "prefix": "opc", "body": "onpreviewcomplete=\"\n\t$1\n\"" },
+  "olc": { "prefix": "olc", "body": "onloadcomplete=\"\n\t$1\n\"" },
+  "onp": { "prefix": "onp", "body": "onnewpano=\"\n\t$1\n\"" },
+  "orp": { "prefix": "orp", "body": "onremovepano=\"\n\t$1\n\"" },
+  "ons": { "prefix": "ons", "body": "onnewscene=\"\n\t$1\n\"" },
+  "oxe": { "prefix": "oxe", "body": "onxmlerror=\"\n\t$1\n\"" },
+  "ole": { "prefix": "ole", "body": "onloaderror=\"\n\t$1\n\"" },
+  "okd": { "prefix": "okd", "body": "onkeydown=\"\n\t$1\n\"" },
+  "oku": { "prefix": "oku", "body": "onkeyup=\"\n\t$1\n\"" },
+  "osc": { "prefix": "osc", "body": "onsingleclick=\"\n\t$1\n\"" },
+  "odc": { "prefix": "odc", "body": "ondoubleclick=\"\n\t$1\n\"" },
+  "omd": { "prefix": "omd", "body": "onmousedown=\"\n\t$1\n\"" },
+  "omu": { "prefix": "omu", "body": "onmouseup=\"\n\t$1\n\"" },
+  "omw": { "prefix": "omw", "body": "onmousewheel=\"\n\t$1\n\"" },
+  "ocm": { "prefix": "ocm", "body": "oncontextmenu=\"\n\t$1\n\"" },
+  "oi": { "prefix": "oi", "body": "onidle=\"\n\t$1\n\"" },
+  "ovch": { "prefix": "ovch", "body": "onviewchange=\"\n\t$1\n\"" },
+  "ovchd": { "prefix": "ovchd", "body": "onviewchanged=\"\n\t$1\n\"" },
+  "or": { "prefix": "or", "body": "onresize=\"\n\t$1\n\"" },
+  "oarsa": { "prefix": "oarsa", "body": "onautorotatestart=\"\n\t$1\n\"" },
+  "oarso": { "prefix": "oarso", "body": "onautorotatestop=\"\n\t$1\n\"" },
+  "oaror": { "prefix": "oaror", "body": "onautorotateoneround=\"\n\t$1\n\"" },
+  "oarch": { "prefix": "oarch", "body": "onautorotatechange=\"\n\t$1\n\"" },
+  "oga": { "prefix": "oga", "body": "gyro_onavailable=\"\n\t$1\n\"" },
+  "ogu": { "prefix": "ogu", "body": "gyro_onunavailable=\"\n\t$1\n\"" },
+  "oge": { "prefix": "oge", "body": "gyro_onenable=\"\n\t$1\n\"" },
+  "ogd": { "prefix": "ogd", "body": "gyro_ondisable=\"\n\t$1\n\"" },
+  "owva": { "prefix": "owva", "body": "webvr_onavailable=\"\n\t$1\n\"" },
+  "owvu": { "prefix": "owvu", "body": "webvr_onunavailable=\"\n\t$1\n\"" },
+  "owvud": { "prefix": "owvud", "body": "webvr_onunknowndevice=\"\n\t$1\n\"" },
+  "owven": { "prefix": "owven", "body": "webvr_onentervr=\"\n\t$1\n\"" },
+  "owvex": { "prefix": "owvex", "body": "webvr_onexitvr=\"\n\t$1\n\"" },
+  
+  "css1": { "prefix": "css1", "body": "css=\"\n\tmargin: 0;\n\"" },
+  "ovs": { "prefix": "ovs", "body": "oversampling=\"2\"" },
+
+  "crop": { "prefix": "crop", "body": "crop=\"$1|$2|$3|$4\"" },
+  "oocrop": { "prefix": "oocrop", "body": "onovercrop=\"$1|$2|$3|$4\"" },
+  "odcrop": { "prefix": "odcrop", "body": "ondowncrop=\"$1|$2|$3|$4\"" },
+
+  "hc": { "prefix": "hc", "body": "hotspot.count" },
+  "lc": { "prefix": "lc", "body": "hotspot.count" },
+  "arri": { "prefix": "arri", "body": "$1[get(i)].$2" },
+
+  "ic": { "prefix": "ic", "body": "InvisibleContent" },
+  "sic": { "prefix": "sic", "body": "style=\"InvisibleContent\"" },
+  "sicv": { "prefix": "sicv", "body": "style=\"InvisibleContent|Visible\"" },
+  "eic": { "prefix": "eic", "body": "extends=\"InvisibleContent\"" },
+  "eicv": { "prefix": "eicv", "body": "extends=\"InvisibleContent|Visible\"" },
+
+  "kc": { "prefix": "kc", "body": "krpano.call(`$1`);" },
+  "ks": { "prefix": "ks", "body": "krpano.set(`$1`);" },
+  "kg": { "prefix": "kg", "body": "krpano.get(`$1`);" },
+
+  "oca": { "prefix": "oca", "body": "onclickActions" },
+
+  "cl": { "prefix": "cl", "body": "console.log($1);" },
+  "cv": { "prefix": "cv", "body": "console.var($1);" },
+  "cm": { "prefix": "cm", "body": "console.msg('$1');" },
+  "cd": { "prefix": "cd", "body": "console.divider();" },
+
+
+  "xs": { "prefix": "xs", "body": "xml.scene" },
+
+  "pp": { "prefix": "pp", "body": "+ ' ' + " },
+  "gdc": { "prefix": "gdc", "body": "get:data[$1].content" },
+
+  "new": { "prefix": "new", "body": "new($1,\n\t$2\n);" },
+
+  "nh": { "prefix": "nh", "body": "newhotspot(%1, %2);" },
+  "nl": { "prefix": "nl", "body": "newlayer(%1, %2);" },
+
+  "jscl": { "prefix": "jscl", "body": "js( console.log(calc($1)); );" },
+  "jscm": { "prefix": "jscm", "body": "js( console.log('$1'); );" },
+  "aos": { "prefix": "aos", "body": "autorun=\"onstart\"" },
+
+  "xmlc": { "prefix": "xmlc", "body": "<!-- $1 -->" },
+
+
+  "oeic": { "prefix": "oeic", "body": [
+    "<object name=\"${1}\" extends=\"InvisibleContent\","
+    "  ${2}",
+    "/>"
+  ]},
+
+  "object": { "prefix": "object", "body": [
+    "<object name=\"${1}\" extends=\"\""
+    " ${2}"
+    "/>"
+  ]},
+
+  "krpano": { "prefix": "krpano", "body": [
+    "<krpano>"
+    ""
+    "\t${0}"
+    ""
+    "</krpano>"
+    ""
+  ]},
+
+  "prototype": { "prefix": "prototype", "body": [
+    "<prototype name=\"${1}\""
+    "\t${2}"
+    "/>"
+  ]},
+
+  "style": { "prefix": "style", "body": [
+    "<style name=\"${1}\""
+    "\t${2}"
+    "/>"
+  ]},
+
+  "l2": { "prefix": "l2", "body": [
+    "<layer name=\"${1}\" object=\"${1}\"/>"
+  ]},
+
+  "l3": { "prefix": "l3", "body": [
+    "<layer name=\"${1}\" object=\"${1}\">"
+    "\t${2}"
+    "</layer>"
+  ]},
+
+  "actjs": { "prefix": "actjs", "body": [
+    "<action name=\"${1}\" type=\"javascript\"><![CDATA["
+    ""
+    "\t${2}"
+    ""
+    "]]></action>"
+  ]},
+
+  "action": { "prefix": "action", "body": [
+    "<action name=\"${1}\">"
+    ""
+    "\t${2}"
+    ""
+    "</action>"
+  ]},
+
+  "asyncfor": { "prefix": "asyncfor", "body": [
+    "asyncfor(set(${1}, ${2}), ${1} LT ${3}, inc(${1}),"
+    "\t${4}"
+    ");"
+  ]},
+
+  "asyncloop": { "prefix": "asyncloop", "body": [
+    "asyncloop(${1},${2}"
+    ""
+    ","
+    ""
+    ");"
+  ]},
+
+  "callwhen": { "prefix": "callwhen", "body": [
+    "callwhen (${1},${2}"
+    ");"
+  ]},
+
+  "data": { "prefix": "data", "body": [
+    "<data name=\"${1}\"><![CDATA["
+    ""
+    " ${2}"
+    ""
+    "]]${-1}></data>"
+  ]},
+
+  "delayedcall": { "prefix": "delayedcall", "body": [
+    "delayedcall (0.1,"
+    "\t${1}"
+    ");"
+  ]},
+
+  "events": { "prefix": "events", "body": [
+    "<events name=\"${1}\" keep=\"true\">"
+    ""
+    "\t${2}"
+    ""
+    "/>"
+  ]},
+
+  "for": { "prefix": "for", "body": [
+    "for(set(${1}, ${2}), ${1} LT ${3}, inc(${1}),"
+    "\t${4}"
+    ");"
+  ]},
+
+  "hotspot": { "prefix": "hotspot", "body": [
+    "<hotspot name=\"${1}\""
+    "\t${2}"
+    "/>"
+  ]},
+
+  "hsi": { "prefix": "hsi", "body": [
+    "<hotspot name=\"${1}\" style=\"invisibleContent\""
+    "\t${2}"
+    "/>"
+  ]},
+
+  "hsikt": { "prefix": "hsikt", "body": [
+    "<hotspot name=\"${1}\" style=\"invisibleContent\" keep=\"true\""
+    "\t${2}"
+    "/>"
+  ]},  
+
+  "hsiv": { "prefix": "hsiv", "body": [
+    "<hotspot name=\"${1}\" style=\"invisibleContent|visible\""
+    "\t${2}"
+    "/>"
+  ]},
+
+  "hsivkt": { "prefix": "hsivkt", "body": [
+    "<hotspot name=\"${1}\" style=\"invisibleContent|visible\" keep=\"true\""
+    "\t${2}"
+    "/>"
+  ]},
+
+  "lsi": { "prefix": "lsi", "body": [
+    "<layer name=\"${1}\" style=\"invisibleContent\""
+    "\t${2}"
+    "/>"
+  ]},
+
+  "lsiv": { "prefix": "lsiv", "body": [
+    "<layer name=\"${1}\" style=\"invisibleContent|visible\""
+    "\t${2}"
+    "/>"
+  ]},
+
+  "lsikt": { "prefix": "lsikt", "body": [
+    "<layer name=\"${1}\" style=\"invisibleContent\" keep=\"true\""
+    "\t${2}"
+    "/>"
+  ]},
+
+  "layer": { "prefix": "layer", "body": [
+    "<layer name=\"${1}\" keep=\"true\" style=\"${2}\""
+    "\t${3}"
+    "/>"
+  ]},
+
+  "plugin": { "prefix": "plugin", "body": [
+    "<plugin name=\"${1}\""
+    "\t${2}"
+    "/>"
+  ]},  
+
+  "ifce": { "prefix": "ifce", "body": [
+    "if (${1},${2}"
+    ", , "
+    ");"
+  ]},
+
+  "ife": { "prefix": "ife", "body": [
+    "if (${1},${2}"
+    ","
+    ");"
+  ]},
+
+  "if": { "prefix": "if", "body": [
+    "if (${1},${2}"
+    ");"
+  ]},
+
+  "ifnot": { "prefix": "ifnot", "body": [
+    "ifnot (${1},${2}"
+    ");"
+  ]},
+
+  "loop": { "prefix": "loop", "body": [
+    "loop(${1},"
+    "\t${2}"
+    ");"
+  ]},
+
+  "setinterval": { "prefix": "setinterval", "body": [
+    "setinterval(${1}, ${2},"
+    "\t${3}"
+    "/>"
+  ]},
+
+  "tag": { "prefix": "tag", "body": [
+    "<${1} />"
+  ]},
+}

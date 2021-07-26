@@ -1,0 +1,68 @@
+{
+    "name": "krpano-for-vscode",
+    "displayName": "Krpano Markup language for VS Code",
+    "description": "Syntax highlighting, snippets and completions",
+    "version": "1.0.0",
+    "publisher": "apushkarev",
+    "homepage": "https://github.com/apushkarev/krpano-for-vscode",
+    "bugs": {
+        "url": "https://github.com/apushkarev/krpano-for-vscode/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/apushkarev/krpano-for-vscode.git"
+    },
+    "icon": "images/icon.png",
+    "engines": {
+        "vscode": "^1.58.0"
+    },
+    "categories": [
+        "Programming Languages",
+        "Snippets",
+        "Other"
+    ],
+    "keywords": [
+        "krpano",
+        "kml",
+        "snippets"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "kml",
+                "aliases": [
+                    "Krpano Markup Language",
+                    "krpano"
+                ],
+                "extensions": [
+                    ".kml"
+                ],
+                "firstLine": "\\<\\?krpano.*",
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "kml",
+                "scopeName": "source.kml",
+                "path": "./syntaxes/krpano-tmLanguage.json"
+            }
+        ],
+        "snippets": [
+            {
+                "language": "kml",
+                "path": "./snippets/kml.json"
+            }
+        ],
+        "activationEvents": [
+            "*"
+        ],
+        "themes": [
+			{
+				"label": "Krpano Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/KrpanoDark-color-theme.json"
+			}
+		]
+    }
+}
